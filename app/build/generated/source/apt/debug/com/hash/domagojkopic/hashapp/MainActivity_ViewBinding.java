@@ -4,6 +4,7 @@ package com.hash.domagojkopic.hashapp;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -33,7 +34,8 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.tvHashContent = Utils.findRequiredViewAsType(source, R.id.tv_hash_content, "field 'tvHashContent'", TextView.class);
     target.tvPersistenceContent = Utils.findRequiredViewAsType(source, R.id.tv_persistence_content, "field 'tvPersistenceContent'", TextView.class);
     target.contentLayout = Utils.findRequiredViewAsType(source, R.id.layout_content, "field 'contentLayout'", RelativeLayout.class);
-    view = Utils.findRequiredView(source, R.id.btn_fetch, "method 'onClick'");
+    view = Utils.findRequiredView(source, R.id.btn_fetch, "field 'buttonFetch' and method 'onClick'");
+    target.buttonFetch = Utils.castView(view, R.id.btn_fetch, "field 'buttonFetch'", Button.class);
     view2131427443 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
@@ -55,6 +57,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.tvHashContent = null;
     target.tvPersistenceContent = null;
     target.contentLayout = null;
+    target.buttonFetch = null;
 
     view2131427443.setOnClickListener(null);
     view2131427443 = null;

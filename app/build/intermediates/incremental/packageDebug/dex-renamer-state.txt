@@ -1,4 +1,4 @@
-#Sun Sep 10 13:20:29 CEST 2017
+#Sun Sep 10 14:31:00 CEST 2017
 base.0=/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

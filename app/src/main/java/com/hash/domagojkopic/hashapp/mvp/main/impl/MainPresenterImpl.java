@@ -1,6 +1,7 @@
 package com.hash.domagojkopic.hashapp.mvp.main.impl;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.hash.domagojkopic.hashapp.R;
 import com.hash.domagojkopic.hashapp.base.BaseActivity;

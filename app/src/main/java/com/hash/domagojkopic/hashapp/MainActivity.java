@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -14,6 +15,9 @@ import com.hash.domagojkopic.hashapp.mvp.main.MainView;
 import com.hash.domagojkopic.hashapp.mvp.main.impl.MainPresenterImpl;
 import com.hash.domagojkopic.hashapp.room.WebPage;
 import com.hash.domagojkopic.hashapp.utils.PersistenceEnum;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -26,6 +30,7 @@ public class MainActivity extends BaseActivity implements MainView {
     @BindView(R.id.tv_hash_content) TextView tvHashContent;
     @BindView(R.id.tv_persistence_content) TextView tvPersistenceContent;
     @BindView(R.id.layout_content) RelativeLayout contentLayout;
+    @BindView(R.id.btn_fetch) Button buttonFetch;
 
     private MainPresenter mainPresenter;
 
@@ -63,6 +68,7 @@ public class MainActivity extends BaseActivity implements MainView {
     public void showContentPersisted(String url, String hash, PersistenceEnum persistenceEnum) {
         hideProgress();
         setAndShow(url, hash, persistenceEnum);
+        disableButton();
     }
 
     @Override
@@ -96,5 +102,21 @@ public class MainActivity extends BaseActivity implements MainView {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+    }
+
+    private void disableButton() {
+        buttonFetch.setEnabled(false);
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        buttonFetch.setEnabled(true);
+                    }
+                });
+            }
+        }, 5000);
     }
 }
