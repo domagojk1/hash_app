@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/domagojkopic/Desktop/HashApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/domagojkopic/.android/build-cache/c00a1f476e7bb4db1392a7b3d6ecdd9d5b2e0f3a/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]
